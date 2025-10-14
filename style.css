@@ -1,0 +1,171 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #1a1a1a;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 48px 48px 48px;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    border-radius: 20px;
+    height: 40px;
+    width: auto;
+
+}
+
+.ul {
+    padding: 0px;
+    display: flex;
+    gap: 18px;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+.logo-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+    padding-top: 5px;
+}
+
+.firstpart {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 48px;
+    width: 100%;
+}
+
+.leftPart {
+    display: flex;
+    flex-direction: column; 
+}
+
+h1 {
+     margin-bottom: 25px;
+}  
+
+.firstpart img {
+  width: 360px;
+  height: auto;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  background-color: #f28c28;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  margin-top: 15px;
+}
+
+h2 {
+    margin: 0;
+}
+
+.secondpart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    gap: 48px;
+
+}
+
+.item-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+    flex: 0 1 auto;
+}
+
+.item img {
+  height: 120px;
+  width: auto;
+  border-radius: 20px;
+  align-self: center;
+}
+
+.third-part {
+    display: flex;
+    flex-direction: column;
+    background-color: #f28c28;
+    padding: 12px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.third-part h3,
+.third-part p {
+  max-width: 400px;
+   margin: 6px;
+}
+
+.goright {
+  display: flex;
+  justify-content: flex-end;
+  width: 380px;
+}
+
+.fourthPart {
+    display: flex;
+    background-color: #1a1a1a;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 36px;
+    color: white;
+    margin: 36px 0;
+    border-radius: 10px;
+    padding: 20px;
+    width: 780px;
+    align-self: center;
+    
+}
+
+.callTo p {
+    width: 100px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f28c28;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    flex: 1;
+}
